@@ -1,0 +1,178 @@
+
+
+
+.productdetail .container .grid{
+    display: flex;
+    gap: 3rem;
+}
+.productdetail .container .icon p{
+    font-size: var(--font-size-16);
+    text-align: center;
+    line-height: 1rem;
+}
+    .productdetail .grid .productImage .mainImage{
+        height: 440px;
+        width: 527px;
+    }
+    .productdetail .grid .productImage .alternateColors{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        margin-top: 2rem;
+    }
+        .productdetail .grid .productImage .alternateColors .color1 img{
+            width: 154px;
+            height: 132px;
+            mix-blend-mode: hard-light;
+        }
+        .productdetail .grid .productImage .alternateColors .color2 img{
+            width: 154px;
+            height: 132px;
+            mix-blend-mode: hard-light;
+        }
+        .productdetail .grid .productImage .alternateColors .color3 img{
+            width: 154px;
+            height: 132px;
+            mix-blend-mode: hard-light;
+        }
+
+        .productdetail .grid .productImage .alternateColors .color1{
+            background-color: rgb(40, 77, 211);
+        }
+        .productdetail .grid .productImage .alternateColors .color2{
+            background-color: rgb(53, 123, 53);
+        }
+        .productdetail .grid .productImage .alternateColors .color3{
+            background-color: rgb(124, 25, 25);
+        }
+
+
+    .productdetail .grid .productInfo .card-rating i{
+        color: var(--color-theme);
+        margin-right: 0.5rem;
+    }
+
+    .productdetail .grid .productInfo .scqs{
+        display: flex;
+        gap: 0.5rem;
+        margin: 3rem 0;
+    }
+        .productdetail .grid .productInfo h3{
+            font-size: var(--font-size-18);
+            align-items: center;
+            line-height: 35px;
+            margin-right: 1rem;
+            width: 70px;
+        }
+
+        .productdetail .grid .productInfo .scqs .optionBox{
+            border: 2px solid black;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            justify-content: center;
+            line-height: 35px;
+            transition: 0.2s ease-in-out;
+        }
+            .productdetail .grid .productInfo .scqs .optionBox:hover{
+                background-color: var(--color-dark);
+                color: white;
+            }
+            .productdetail .grid .productInfo .scqs button:active{
+                background-color: var(--color-dark);
+                color: white;
+            }
+
+        .productdetail .grid .productInfo .scqs .dropdownPlaceholder{
+            border: 2px solid black;
+            height: 40px;
+            width: 200px;
+            text-align: center;
+            justify-content: center;
+            line-height: 35px;
+            transition: 0.2s ease-in-out;
+        }
+            .productdetail .grid .productInfo .scqs .dropdownPlaceholder:hover{
+                background-color: var(--color-dark);
+                color: white;
+                cursor: pointer;
+            }
+            .productdetail .grid .productInfo .scqs .qtyCounter {
+                display: flex;
+                justify-content: space-between;
+            }
+            .productdetail .grid .productInfo .scqs .qtyCounter .controlBtn{
+                border: 2px solid black;
+                font-size: var(--font-size-24);
+                padding: 0.9rem;
+                text-align: center;
+                justify-content: center;
+                line-height: 35px;
+                margin-right: 0.1rem;
+                transition: 0.2s ease-in-out;
+            }
+            .productdetail .grid .productInfo .scqs .counterOutput{
+                border: 2px solid black;
+                font-size: var(--font-size-24);
+                width: 3rem;
+                padding: 0.9rem 3rem 0.9rem 1.9rem;
+                text-align: center;
+                justify-content: center;
+                line-height: 35px;
+                margin-right: 0.1rem;
+                transition: 0.2s ease-in-out;
+            }
+                .productdetail .grid .productInfo .scqs .qtyCounter .controlBtn:hover{
+                    background-color: var(--color-dark);
+                    color: white;
+                    cursor: pointer;
+                }
+        .productdetail .grid .productInfo .scqs .links{
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .productdetail .grid .productInfo .scqs .links a{
+            color: var(--color-dark);
+            background-color: var(--color-gray-2);
+            border-radius: var(--border-radius-rounded);
+            text-align: center;
+            scale: 1.2;
+            line-height: 31px;
+            height: 30px;
+            width: 30px;
+            transition: 0.2s ease-in-out;
+        }
+            .productdetail .grid .productInfo .scqs .links a:hover{
+                background-color: var(--color-dark);
+                color: white;
+            }
+
+
+
+.productdetail .container .midSection{
+    margin-top: 3rem;
+}
+    .productdetail .container .midSection .productInfo{
+        display: flex;
+        padding: 0;
+        gap: 2rem;
+        list-style: none;
+        justify-content: start;
+    }
+        .productdetail .container .midSection .productInfo li{
+            position: relative;
+        }
+
+        .productdetail .container .midSection .productInfo li:hover{
+            position: absolute;
+            left: -8rem;
+            top: -18rem;
+            z-index: 1;
+            font-weight: bolder;
+            color: var(--color-theme);
+            font-size: 100rem;
+            border-bottom: 2px solid var(--color-theme);
+        }

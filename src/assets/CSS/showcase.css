@@ -1,0 +1,27 @@
+
+
+.showcase {
+    background-color: var(--color-gray-2);
+}
+    .showcase .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+        .showcase img{
+            color: var(--color-gray-1);
+        }
+        .showcase .container .midText{
+                display: block;
+                text-align: center;
+            }
+                .showcase .container .midText h1{
+                    line-height: 90%;
+                    font-weight: var(--font-weight-bold);
+                    font-size: 4em;
+                }
+                .showcase .container .midText p{
+                    padding: 2em;
+                }

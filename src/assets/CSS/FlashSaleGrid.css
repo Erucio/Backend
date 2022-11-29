@@ -1,0 +1,36 @@
+.flashSaleGrid .container{
+    margin-bottom: 6rem;
+    gap: 1.87rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.flashSaleBoxLeft, .flashSaleBoxRight{
+    background-color: var(--color-gray-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .flashSaleBoxRight h1{
+        color: #fff;
+        font-weight: var(--font-weight-bold);
+        margin-bottom: 2rem;
+    }
+    .flashSaleBoxLeft h1{
+        color: #fff;
+        font-weight: var(--font-weight-bold);
+        margin-bottom: 2rem;
+    }
+     .rightProducts{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 1rem;
+        justify-self: start;
+    }
+    .leftProducts{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        justify-self: end;
+        gap: 1rem;
+    }

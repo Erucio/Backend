@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+body {
+    --color-theme: #FF7373;
+    --color-theme-shadow: #75695C;
+    --color-theme-light:#CAC0BE;
+    --color-dark: #23262A;
+    --color-white: #fff;
+    --color-gray-0: #616365;
+    --color-gray-1: #BEBEBE;
+    --color-gray-2: #F5F5F5;
+
+    --font-Poppins: 'Poppins', sans-serif;
+    --font-weight-regular: 400; /* brödtext*/
+    --font-weight-medium: 500; /* beskrivning/rubrik*/
+    --font-weight-bold: 700; /* rubriker */
+    --font-size-14: 0.87rem;
+    --font-size-16: 1rem;
+    --font-size-18: 1.25rem;
+    --font-size-24: 1.5rem;
+    --font-size-36: 2.25rem;
+    --font-size-60: 3.75rem;
+
+    --border-radius-rounded: 50%;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: var(--font-Poppins);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-dark);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

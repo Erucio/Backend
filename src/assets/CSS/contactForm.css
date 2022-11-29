@@ -1,0 +1,83 @@
+.map .container{
+    max-width: 1110px;
+    height: 39rem;
+}
+    .map .container iframe{
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: 60%;
+    }
+    .container .icon{
+        display: flex;
+        gap: 0.5rem;
+        padding: 2.2rem 0;
+        margin: 0;
+        
+    }
+        .container .icon a{
+            margin-top: -0.2rem;
+            color: var(--color-dark);
+            align-items: center;
+        }
+    .container .icon p{
+        font-size: 0.8em;
+    }
+
+.form .container{
+    max-width: 1110px;
+}
+    .form .container h3{
+        font-size: 18px;
+        font-weight: var(--font-weight-bold);
+    }
+        .form .container .input{
+            
+            display: flex;
+            justify-content: space-between;
+            gap: 2.5rem;
+        }
+        .form .container .input .nameMail{
+            width: 100%;
+        }
+
+     
+            .form .container .input .nameMail input{
+                padding: 1.25rem;
+                font-size: 1.12rem;
+                width: 100%;
+            }
+            .form .container .validFailName{
+                border: 1px solid red;
+            }
+            .form .container .validFailEmail{
+                border: 1px solid red;
+            }
+            .form .container .validFailComments{
+                border: 1px solid red;
+            }
+
+    .disabled button{
+        background-color: gray;
+        
+    }
+        .disabled button:hover{
+            cursor: not-allowed;
+            background-color: gray;
+        }
+
+    .form .container textarea{
+        padding: 1.25rem;
+        font-size: 1.12rem;
+    }
+
+    .form .container .errorMessage{
+        color: var(--color-theme);
+        font-size: 0.9em;
+        margin-top: 0.2rem;
+        padding: 0 1.25rem;
+    }
+
+.alert h1{
+    font-size: var(--font-size-18);
+    font-weight: bold;
+}

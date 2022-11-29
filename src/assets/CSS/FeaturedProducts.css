@@ -1,0 +1,10 @@
+.featuredProducts .container{
+    max-width: 1110px;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+    .featuredProducts .container h1{
+        padding-top: 6rem;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-bold);
+    }
