@@ -4,4 +4,5 @@ export interface Props{
     price: number;
     category: string;
     imageName: string;
+    tag: string
 }

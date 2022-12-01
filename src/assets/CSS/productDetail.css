@@ -38,12 +38,17 @@
 
         .productdetail .grid .productImage .alternateColors .color1{
             background-color: rgb(40, 77, 211);
+            opacity: 70%;
         }
         .productdetail .grid .productImage .alternateColors .color2{
             background-color: rgb(53, 123, 53);
+            opacity: 70%;
+
         }
         .productdetail .grid .productImage .alternateColors .color3{
             background-color: rgb(124, 25, 25);
+            opacity: 70%;
+
         }
 
 
